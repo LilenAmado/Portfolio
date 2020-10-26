@@ -12,6 +12,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <nav>
@@ -43,6 +45,9 @@
 
     <main class="portfolio">
         <h1>Portfolio</h1>
+
+
+
       <!---  <div class="botones-port flex-port">
             <input type="button" value="Desarrollo Web" id="desarrollo">
             <input type="button" value="Audiovisual" id="audiovisual">
@@ -50,33 +55,26 @@
         <a href="">
             <input type="button" value="Desarrollo Web" id="desarrolloprueba">
         </a>-->
-
-    
-
-    <!---------------------->
+        <!---------------------->
         <!-- Barra de busqueda
         <form action="" class="container">
             <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
         </form> -->
-        <!-- Botones 
+
+
+
+        <!-- Botones -->
         <section class="categorias-port">
 
             <div class="botones-port flex-port" id="categorias-port">
-               
-                <a href="">
-                    <input type="button" value="Desarrollo Web" id="desarrollo">
-                </a>
-
-                <a href="">
-                    <input type="button" value="Audiovisual" id="audiovisual">
-               
-                </a>
+                <input type="button" value="Desarrollo Web" id="desarrollo">
+                <input type="button" value="Audiovisual" id="audiovisual">
             </div>
 
-        </section>-->
+        </section>
 
-        <!-- GALERIA -->
-        <section class="grid container" id="grid">
+        <!-- GALERIA DESARROLLO -->
+        <section class="grid container" id="desarrollo_galery">
             <a href="http://mogabe.netlify.app/" target="_blank">
                 <div class="item" data-categoria="desarrolloweb" data-etiquetas="desarrollo web páginas paginas sitios sitio codigo ecommerce blog"
                 data-description="1.hola">
@@ -168,6 +166,50 @@
             </a>
         </section>
 
+        <!-- GALERIA AUDIOVISUAL -->
+        <section class="grid container" id="audiovisual_galery" style="display: none;">
+            <video class="widthVideo" controls>
+                <source src="audiovisual/globalUnionPropaganda.webm" type="video/mp4">
+                <!--Your browser does not support the video tag.-->
+                Su navegador no soporta el video.
+            </video>
+
+            <video class="widthVideo" controls>
+                <source src="audiovisual/suavePropaganda.mp4" type="video/mp4">
+                <!--Your browser does not support the video tag.-->
+                Su navegador no soporta el video.
+            </video>
+
+            <video class="widthVideo" controls>
+                <source src="audiovisual/simsJuego.mov" type="video/mp4">
+                <!--Your browser does not support the video tag.-->
+                Su navegador no soporta el video.
+            </video>
+
+            <audio controls class="widthVideo">
+                <source src="audiovisual/reunionesEspeciales.wav" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+                Su navegador no soporta el audio.
+            </audio>
+            
+            <audio controls class="widthVideo">
+                <source src="audiovisual/deporte.mp3" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+                Su navegador no soporta el audio.
+            </audio>
+
+            <audio controls class="widthVideo">
+                <source src="audiovisual/motocross.mp3" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+                Su navegador no soporta el audio.
+            </audio>
+
+            <audio controls class="widthVideo">
+                <source src="audiovisual/diasdeEter.wav" type="audio/mpeg">
+                <!--Your browser does not support the audio element.-->
+                Su navegador no soporta el audio.
+            </audio>
+        </section>
 
         <br><br>
     </main>
@@ -181,8 +223,9 @@
     </footer>
     
     <!--JS-->
-  <!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>--> 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>--> 
     <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
 	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
     <script src="js/portfolio.js"></script>
