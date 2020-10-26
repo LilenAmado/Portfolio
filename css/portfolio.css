@@ -106,7 +106,7 @@ form{
     color: #333; 
     font-size: 13px; 
     text-align: center; 
-    display: none;
+    /*display: none;*/
 }
 @media (max-width: 644px){
     .grid{
