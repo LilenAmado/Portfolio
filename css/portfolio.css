@@ -4,7 +4,7 @@
     text-transform: uppercase;
     color: #222;
     font-size: 2rem;
-    margin-bottom: 2rem;
+    /*margin-bottom: 1rem;*/
 }
 #desarrollo{
     margin-top: 20px; 
@@ -98,6 +98,9 @@ form{
 .grid.imagenes-cargadas{
     opacity: 1;
 }*/
+.widthVideo{
+    width: 100%;
+}
 @media (max-width: 644px){
     .grid{
         grid-template-columns: repeat(1,1fr);
