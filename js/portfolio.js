@@ -3,6 +3,7 @@ let desarrollo_galery = $('#desarrollo_galery');
 let audiovisual_galery = $('#audiovisual_galery');
 let desarrollo_boton = $('#desarrollo');
 let audiovisual_boton = $('#audiovisual');
+let aclaracion = $('#aclaracion');
 
 audiovisual_boton.click(()=>{
     desarrollo_galery.hide();
