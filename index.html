@@ -342,14 +342,13 @@
                 </div>
             </div>
 
-            <form method="POST" name="contact" netlify class="container-con" id="formulario">
+            <form method="POST" name="contact" data-netlify="true" class="container-con" id="formulario">
                 <input type="text" name="nombre" placeholder="Nombre" id="nombre">
                 <input type="email" name="email" placeholder="Email" id="email"><br>
                 <input type="text" name="asunto" placeholder="Asunto" id="asunto"><br>
                 <textarea name="mensaje" placeholder="Mensaje" id="mensaje" style="font-size: 1.1rem;"></textarea><br>
                 <input type="submit" value="Enviar" class="boton-contacto" id="boton_contacto" onclick="return validarForm();"> <br>
                 <small id="small_but"></small>
-                <div data-netlify-recaptcha="true"></div>
             </form>
         </article>
     </section>
