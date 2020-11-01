@@ -442,6 +442,11 @@ h1{
     transform: translate(5px, -4px);
 }
 /* Contacto */
+.fa, .fas {
+    margin: 0 auto;
+    font-weight: 900;
+    display: block;
+}
 .contacto{
     padding-bottom: 3rem;
 }
