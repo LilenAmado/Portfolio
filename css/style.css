@@ -441,10 +441,13 @@ h1{
     background-color: tomato;
     transform: translate(5px, -4px);
 }
-/* Contacto */
+/* Contacto
 .fa, .fas {
     margin: 0 auto;
     font-weight: 900;
+    display: block;
+} */
+.icons-part{
     display: block;
 }
 .contacto{
