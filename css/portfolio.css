@@ -98,8 +98,9 @@ form{
 .grid.imagenes-cargadas{
     opacity: 1;
 }*/
-.widthVideo{
+.widthVideo {
     width: 100%;
+    margin-bottom: 1rem;
 }
 .aclaracion{
     margin-top: 2rem; 
