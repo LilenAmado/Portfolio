@@ -2,6 +2,7 @@
 const typed = new Typed('.typed', {
     strings: ['Desarrollo Web Front-End',
               'Maquetación web',
+              'Especialista BI & Analytics',
               'Operación Técnica de Radio'],
     //stringsElement: ,
     typeSpeed: 75, //Velocidad en milisegundos para poner una letra
