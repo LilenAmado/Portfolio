@@ -261,11 +261,11 @@ h1{
     animation: bootstrap 3s;
 }
 .javascript{
-    width: 40%;
+    width: 43%;
     animation: javascript 3s;
 }
 .react{
-    width: 35%;
+    width: 33%;
     animation: react 3s;
 }
 .powerBI{
@@ -301,7 +301,7 @@ h1{
         width: 0%;
     }
     100%{
-        width: 40%;
+        width: 43%;
     }
 }
 @keyframes react{
@@ -309,7 +309,7 @@ h1{
         width: 0%;
     }
     100%{
-        width: 35%;
+        width: 33%;
     }
 }
 @keyframes powerBI{
