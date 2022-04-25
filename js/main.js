@@ -3,7 +3,7 @@ const typed = new Typed('.typed', {
     strings: ['Desarrollo Web Front-End',
               'Maquetación web',
               'Consultora BI',
-              'Operación Técnica de Radio'],
+              'Operadora Técnica de Radio'],
     //stringsElement: ,
     typeSpeed: 75, //Velocidad en milisegundos para poner una letra
     startDelay: 300, //Tiempo de retraso en iniciar la animación
