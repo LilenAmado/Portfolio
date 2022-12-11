@@ -575,14 +575,7 @@ footer span a:hover{
 
 /* MEDIA QUERIES */ 
 
-@media (min-width: 917px){
-    .banner-area{
-        height: 100%;
-    }
-    .secc-1 {
-        margin-top: 62rem;
-    }
-}
+
 @media (max-width: 1084px){
     h1{
         font-size: 5rem;
@@ -867,3 +860,11 @@ footer span a:hover{
     }
 }
 
+@media (min-width: 917px){
+    .banner-area{
+        height: 100%;
+    }
+    .secc-1 {
+        margin-top: 62rem;
+    }
+}
