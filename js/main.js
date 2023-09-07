@@ -41,3 +41,14 @@ function validarForm() {
         return true
     }
 }
+
+
+// Footer
+// Obtenemos el elemento span por su ID
+  const yearElement = document.getElementById("year");
+
+  // Obtenemos el año actual
+  const currentYear = new Date().getFullYear();
+
+  // Actualizamos el contenido del elemento con el año actual
+  yearElement.textContent = currentYear;
