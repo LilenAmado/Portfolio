@@ -54,17 +54,17 @@ function validarForm() {
   yearElement.textContent = currentYear;
 
 // Edad
-  // Obtenemos el elemento span por su ID
+ // Obtenemos el elemento span por su ID
   const edadElement = document.getElementById("edad");
 
-  // Fecha de nacimiento
-  const fechaNacimiento = new Date("1996-10-07");
+  // Fecha de nacimiento (en formato año, mes, día)
+  const fechaNacimiento = new Date(1996, 6, 10); // El mes se cuenta desde 0 (enero = 0, febrero = 1, etc.)
 
   // Fecha actual
   const fechaActual = new Date();
 
   // Calculamos la diferencia de años
-  const edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
+  let edad = fechaActual.getFullYear() - fechaNacimiento.getFullYear();
 
   // Verificamos si aún no ha pasado el cumpleaños este año
   if (
@@ -72,7 +72,7 @@ function validarForm() {
     (fechaActual.getMonth() === fechaNacimiento.getMonth() &&
       fechaActual.getDate() < fechaNacimiento.getDate())
   ) {
-    // Si aún no ha pasado su cumpleaños, restamos 1 año
+    // Si aún no ha pasado el cumpleaños, restamos 1 año
     edad--;
   }
 
