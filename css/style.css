@@ -107,6 +107,8 @@ label #sign-two{
     -webkit-box-shadow: inset -1px 9px 22px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset -1px 9px 22px 0px rgba(0,0,0,0.75);
     box-shadow: inset -1px 9px 22px 0px rgba(0,0,0,0.75);
+    
+    height: 580px;
 }
 .titulo{
     font-family: Helvetica, sans-serif;
