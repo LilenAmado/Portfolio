@@ -860,9 +860,13 @@ footer span a:hover{
     }
 }
 
-@media (min-width: 917px){
+/* @media (min-width: 917px){
     .banner-area{
         height: 100%;
     }
-}
+} */
 
+@media (min-width: 917px)
+.banner-area {
+    height: 68%;
+}
